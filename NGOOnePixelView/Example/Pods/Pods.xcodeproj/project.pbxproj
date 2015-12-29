@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C47F0924A4A2DA16C944D32788C3265 /* NGOOnePixelView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB4445D30760CF81DD050A038C410BAC /* NGOOnePixelView.bundle */; };
+		5082B3543EDE45E38E97811E19B0CD49 /* NGOOnePixelView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 058A8FD84E3986B3AC69A1183ED6D666 /* NGOOnePixelView-dummy.m */; };
+		71193A5B17DE1B1490DA4E8C5F03AB89 /* NGOOnePixelView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C4B5408E9B3D5D3C14A897246E8883 /* NGOOnePixelView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79302F1B1C32A81400A17DA8 /* NGOOnePixelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79302F191C32A81400A17DA8 /* NGOOnePixelView.h */; };
+		79302F1C1C32A81400A17DA8 /* NGOOnePixelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79302F1A1C32A81400A17DA8 /* NGOOnePixelView.m */; };
+		8E90CC7C6827134BF2B31643E40EC6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B705DE093A5BAB146AF7848AA972187E /* Pods-NGOOnePixelView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CCCC2350866D2646BF665D3AD63ABD /* Pods-NGOOnePixelView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B807783C35F8462BEC6A1C805BC0039F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FB81F72224F7900C5797F401175F9759 /* Pods-NGOOnePixelView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE797A74CCC978A69F9B5C4E24356497 /* Pods-NGOOnePixelView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0725B74905DA1CDDFB6A25BE85758DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8264B3284982B72167F85F5CC1653875;
+			remoteInfo = NGOOnePixelView;
+		};
+		A4E2BEC42DA7963213BB3C15E937F244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A504EB3041314FEE7464A7340393E93;
+			remoteInfo = "NGOOnePixelView-NGOOnePixelView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058A8FD84E3986B3AC69A1183ED6D666 /* NGOOnePixelView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NGOOnePixelView-dummy.m"; sourceTree = "<group>"; };
+		07C4B5408E9B3D5D3C14A897246E8883 /* NGOOnePixelView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NGOOnePixelView-umbrella.h"; sourceTree = "<group>"; };
+		0872212F896D464CC039B98468CCDD1D /* Pods_NGOOnePixelView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGOOnePixelView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE010F0A87DD1E795E33EEDC19FB1F8 /* Pods-NGOOnePixelView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NGOOnePixelView_Tests.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EE0439E7463952DDD260092243BF951 /* NGOOnePixelView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NGOOnePixelView-prefix.pch"; sourceTree = "<group>"; };
+		42708AA013041F3CC120FB4B45317029 /* Pods-NGOOnePixelView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGOOnePixelView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50270458C876FD63D0E7589E6F06B1E2 /* NGOOnePixelView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NGOOnePixelView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7BFC456225F35E090F40A2F91E0FF2 /* NGOOnePixelView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NGOOnePixelView.modulemap; sourceTree = "<group>"; };
+		729BF41A06A20FDD90191EE01B245FBA /* Pods-NGOOnePixelView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGOOnePixelView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		79302F191C32A81400A17DA8 /* NGOOnePixelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGOOnePixelView.h; sourceTree = "<group>"; };
+		79302F1A1C32A81400A17DA8 /* NGOOnePixelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGOOnePixelView.m; sourceTree = "<group>"; };
+		A3D91600DC3E9016526347C531642953 /* Pods-NGOOnePixelView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGOOnePixelView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8CCCC2350866D2646BF665D3AD63ABD /* Pods-NGOOnePixelView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGOOnePixelView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AE3CBF0DFDFC95821013A254DDE7E569 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D581B943CF38A114C36DBCC84D1C2379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8AD464DCA4E5005A4A83903D7DF2F5D /* Pods-NGOOnePixelView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGOOnePixelView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB4445D30760CF81DD050A038C410BAC /* NGOOnePixelView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGOOnePixelView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE91BC64256A4FE2D1BAAC8BBC89B846 /* NGOOnePixelView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NGOOnePixelView.xcconfig; sourceTree = "<group>"; };
+		FBB5EE6545AA8C2BC480BD6D08168B07 /* Pods-NGOOnePixelView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGOOnePixelView_Tests-resources.sh"; sourceTree = "<group>"; };
+		FCADBFE7BF94D0BDC19825534F8DD032 /* Pods-NGOOnePixelView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGOOnePixelView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE797A74CCC978A69F9B5C4E24356497 /* Pods-NGOOnePixelView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGOOnePixelView_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092C66EB498CE688D5631C5A9B07A63B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E90CC7C6827134BF2B31643E40EC6A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F315E01BA73CFEBB6FF6E2586808203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8815066E85872E100D5823E21F939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B807783C35F8462BEC6A1C805BC0039F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0898C47C4DE32952EDDC7F6CAADA40E8 /* NGOOnePixelView */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C3B4C1B7716481400F7F37A0A01E7 /* Pod */,
+				D3E35465CD18445AE821446BFA670E4B /* Support Files */,
+			);
+			name = NGOOnePixelView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3F080291825A6D43DBB185A760C50C54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBA07718FE9004717C1F4915C7A875DD /* Pods-NGOOnePixelView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B07B3647121726F507C0054F2292FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4445D30760CF81DD050A038C410BAC /* NGOOnePixelView.bundle */,
+				50270458C876FD63D0E7589E6F06B1E2 /* NGOOnePixelView.framework */,
+				0872212F896D464CC039B98468CCDD1D /* Pods_NGOOnePixelView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8EF940A8D06858400734E54D889C049E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5B07B3647121726F507C0054F2292FDB /* Products */,
+				3F080291825A6D43DBB185A760C50C54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF940A8D06858400734E54D889C049E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0898C47C4DE32952EDDC7F6CAADA40E8 /* NGOOnePixelView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A3C3B4C1B7716481400F7F37A0A01E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAE55041AD6C6EDEAC25940DB173A2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		B7CAE55041AD6C6EDEAC25940DB173A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79302F191C32A81400A17DA8 /* NGOOnePixelView.h */,
+				79302F1A1C32A81400A17DA8 /* NGOOnePixelView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BBA07718FE9004717C1F4915C7A875DD /* Pods-NGOOnePixelView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D581B943CF38A114C36DBCC84D1C2379 /* Info.plist */,
+				3AE010F0A87DD1E795E33EEDC19FB1F8 /* Pods-NGOOnePixelView_Tests.modulemap */,
+				D8AD464DCA4E5005A4A83903D7DF2F5D /* Pods-NGOOnePixelView_Tests-acknowledgements.markdown */,
+				A3D91600DC3E9016526347C531642953 /* Pods-NGOOnePixelView_Tests-acknowledgements.plist */,
+				FE797A74CCC978A69F9B5C4E24356497 /* Pods-NGOOnePixelView_Tests-dummy.m */,
+				729BF41A06A20FDD90191EE01B245FBA /* Pods-NGOOnePixelView_Tests-frameworks.sh */,
+				FBB5EE6545AA8C2BC480BD6D08168B07 /* Pods-NGOOnePixelView_Tests-resources.sh */,
+				A8CCCC2350866D2646BF665D3AD63ABD /* Pods-NGOOnePixelView_Tests-umbrella.h */,
+				FCADBFE7BF94D0BDC19825534F8DD032 /* Pods-NGOOnePixelView_Tests.debug.xcconfig */,
+				42708AA013041F3CC120FB4B45317029 /* Pods-NGOOnePixelView_Tests.release.xcconfig */,
+			);
+			name = "Pods-NGOOnePixelView_Tests";
+			path = "Target Support Files/Pods-NGOOnePixelView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3E35465CD18445AE821446BFA670E4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CBF0DFDFC95821013A254DDE7E569 /* Info.plist */,
+				5B7BFC456225F35E090F40A2F91E0FF2 /* NGOOnePixelView.modulemap */,
+				DE91BC64256A4FE2D1BAAC8BBC89B846 /* NGOOnePixelView.xcconfig */,
+				058A8FD84E3986B3AC69A1183ED6D666 /* NGOOnePixelView-dummy.m */,
+				3EE0439E7463952DDD260092243BF951 /* NGOOnePixelView-prefix.pch */,
+				07C4B5408E9B3D5D3C14A897246E8883 /* NGOOnePixelView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NGOOnePixelView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71550083B6163496C18DCDF3ABC4659B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B705DE093A5BAB146AF7848AA972187E /* Pods-NGOOnePixelView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F508723B371395CE84C92F7F8D26DCA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79302F1B1C32A81400A17DA8 /* NGOOnePixelView.h in Headers */,
+				71193A5B17DE1B1490DA4E8C5F03AB89 /* NGOOnePixelView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A504EB3041314FEE7464A7340393E93 /* NGOOnePixelView-NGOOnePixelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA500E494ADE41999D7F64E49CF1EBB1 /* Build configuration list for PBXNativeTarget "NGOOnePixelView-NGOOnePixelView" */;
+			buildPhases = (
+				D462F0DAF307E4497F5D7FAA898C46DD /* Sources */,
+				7F315E01BA73CFEBB6FF6E2586808203 /* Frameworks */,
+				9691D8FA7FFC7FA94CEA96AC323EF321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NGOOnePixelView-NGOOnePixelView";
+			productName = "NGOOnePixelView-NGOOnePixelView";
+			productReference = DB4445D30760CF81DD050A038C410BAC /* NGOOnePixelView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8264B3284982B72167F85F5CC1653875 /* NGOOnePixelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA3513E27560EE5C0068A2C395C930C /* Build configuration list for PBXNativeTarget "NGOOnePixelView" */;
+			buildPhases = (
+				3CAAE83F84B5871CD00DB2F464B4E99D /* Sources */,
+				092C66EB498CE688D5631C5A9B07A63B /* Frameworks */,
+				929D060C0C2A92E2B2C9A2D1EF8DEDD0 /* Resources */,
+				F508723B371395CE84C92F7F8D26DCA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F7E9CDE40CB93142FEDC82C932E613 /* PBXTargetDependency */,
+			);
+			name = NGOOnePixelView;
+			productName = NGOOnePixelView;
+			productReference = 50270458C876FD63D0E7589E6F06B1E2 /* NGOOnePixelView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F334246599CC5991A4148A12C010B6F /* Pods-NGOOnePixelView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE21C1F20388DB38812F6B5CEA32B49 /* Build configuration list for PBXNativeTarget "Pods-NGOOnePixelView_Tests" */;
+			buildPhases = (
+				4F60642DA621611029CD920EBA055E29 /* Sources */,
+				90C8815066E85872E100D5823E21F939 /* Frameworks */,
+				71550083B6163496C18DCDF3ABC4659B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E9D3AAC0BFC79B2C49E169C42A226A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-NGOOnePixelView_Tests";
+			productName = "Pods-NGOOnePixelView_Tests";
+			productReference = 0872212F896D464CC039B98468CCDD1D /* Pods_NGOOnePixelView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B07B3647121726F507C0054F2292FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8264B3284982B72167F85F5CC1653875 /* NGOOnePixelView */,
+				3A504EB3041314FEE7464A7340393E93 /* NGOOnePixelView-NGOOnePixelView */,
+				9F334246599CC5991A4148A12C010B6F /* Pods-NGOOnePixelView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929D060C0C2A92E2B2C9A2D1EF8DEDD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C47F0924A4A2DA16C944D32788C3265 /* NGOOnePixelView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9691D8FA7FFC7FA94CEA96AC323EF321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAAE83F84B5871CD00DB2F464B4E99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5082B3543EDE45E38E97811E19B0CD49 /* NGOOnePixelView-dummy.m in Sources */,
+				79302F1C1C32A81400A17DA8 /* NGOOnePixelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F60642DA621611029CD920EBA055E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB81F72224F7900C5797F401175F9759 /* Pods-NGOOnePixelView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D462F0DAF307E4497F5D7FAA898C46DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E9D3AAC0BFC79B2C49E169C42A226A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NGOOnePixelView;
+			target = 8264B3284982B72167F85F5CC1653875 /* NGOOnePixelView */;
+			targetProxy = 0725B74905DA1CDDFB6A25BE85758DA4 /* PBXContainerItemProxy */;
+		};
+		E6F7E9CDE40CB93142FEDC82C932E613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NGOOnePixelView-NGOOnePixelView";
+			target = 3A504EB3041314FEE7464A7340393E93 /* NGOOnePixelView-NGOOnePixelView */;
+			targetProxy = A4E2BEC42DA7963213BB3C15E937F244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		24ECEF31B43EDFC6DC6273592F82A6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE91BC64256A4FE2D1BAAC8BBC89B846 /* NGOOnePixelView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NGOOnePixelView/NGOOnePixelView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NGOOnePixelView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NGOOnePixelView/NGOOnePixelView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NGOOnePixelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4314C26108BA19FB0B17AD6B98DE4113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE91BC64256A4FE2D1BAAC8BBC89B846 /* NGOOnePixelView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NGOOnePixelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5B8CBFD44359CB2E2C6D9B4DDDF10DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCADBFE7BF94D0BDC19825534F8DD032 /* Pods-NGOOnePixelView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NGOOnePixelView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGOOnePixelView_Tests/Pods-NGOOnePixelView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NGOOnePixelView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B411D6E8B04B71C2F0A0FF7B57359EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42708AA013041F3CC120FB4B45317029 /* Pods-NGOOnePixelView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NGOOnePixelView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGOOnePixelView_Tests/Pods-NGOOnePixelView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NGOOnePixelView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6FDBB7CB8FF10670F7ED54DA4334646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE91BC64256A4FE2D1BAAC8BBC89B846 /* NGOOnePixelView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NGOOnePixelView/NGOOnePixelView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NGOOnePixelView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NGOOnePixelView/NGOOnePixelView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NGOOnePixelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0FE1632942256E13017430061BF2F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE91BC64256A4FE2D1BAAC8BBC89B846 /* NGOOnePixelView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NGOOnePixelView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA3513E27560EE5C0068A2C395C930C /* Build configuration list for PBXNativeTarget "NGOOnePixelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24ECEF31B43EDFC6DC6273592F82A6BC /* Debug */,
+				C6FDBB7CB8FF10670F7ED54DA4334646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA500E494ADE41999D7F64E49CF1EBB1 /* Build configuration list for PBXNativeTarget "NGOOnePixelView-NGOOnePixelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FE1632942256E13017430061BF2F78 /* Debug */,
+				4314C26108BA19FB0B17AD6B98DE4113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE21C1F20388DB38812F6B5CEA32B49 /* Build configuration list for PBXNativeTarget "Pods-NGOOnePixelView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8CBFD44359CB2E2C6D9B4DDDF10DE1 /* Debug */,
+				B411D6E8B04B71C2F0A0FF7B57359EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

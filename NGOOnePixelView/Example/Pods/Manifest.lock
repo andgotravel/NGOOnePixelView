@@ -1,0 +1,14 @@
+PODS:
+  - NGOOnePixelView (0.1.0)
+
+DEPENDENCIES:
+  - NGOOnePixelView (from `../`)
+
+EXTERNAL SOURCES:
+  NGOOnePixelView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NGOOnePixelView: 2aee8c2ce0f7a6e9023b293847d20b62e69c89b8
+
+COCOAPODS: 0.39.0
