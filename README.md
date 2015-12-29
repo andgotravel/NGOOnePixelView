@@ -1,5 +1,6 @@
 # NGOOnePixelView
 
+[![Build Status](https://www.bitrise.io/app/1dc9bc6f4365007a.svg?token=ia3Uy4N4VC60Wx5fABi4MA)](https://www.bitrise.io/app/1dc9bc6f4365007a)
 [![Version](https://img.shields.io/cocoapods/v/NGOOnePixelView.svg?style=flat)](http://cocoapods.org/pods/NGOOnePixelView)
 [![License](https://img.shields.io/cocoapods/l/NGOOnePixelView.svg?style=flat)](http://cocoapods.org/pods/NGOOnePixelView)
 [![Platform](https://img.shields.io/cocoapods/p/NGOOnePixelView.svg?style=flat)](http://cocoapods.org/pods/NGOOnePixelView)
